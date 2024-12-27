@@ -6,7 +6,7 @@ This is where I will post my ohbot showtapes that are unfinished but being worke
 The final versions will be clearly marked and also posted on my [ohbot showtapes repository](https://github.com/Ciaralooney/ohbotshowtapes/blob/main/README.md)
 
 ## Setting up
-Click on the device you have for instructions on how to set up ohbot initially.
+Click on the device you have for instructions on how to set up ohbot initially. <br>
 [Windows](https://github.com/ohbot/ohbot-python/blob/master/Docs/Setup_Windows.md) <br>
 [Mac](https://github.com/ohbot/ohbot-python/blob/master/Docs/Setup_Mac.md) <br>
 [Raspberry Pi](https://github.com/ohbot/ohbot-python/blob/master/Docs/Setup_Pi.md)
