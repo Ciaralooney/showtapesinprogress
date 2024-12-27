@@ -51,7 +51,7 @@ ohbot.wait(.5)
 ohbot.say("Trying hard to look like Gary Cooper", False, True)
 ohbot.say("Super duper", False, True)
 
-ohbot.wait(1) 
+ohbot.wait(1)
 ohbot.say("If you're blue, and you don't know where to go to", False, True)
 ohbot.wait(.5)  # Wait for 2 seconds
 ohbot.say("Why don't you go where fashion sits?", False, True)
