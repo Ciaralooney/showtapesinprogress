@@ -66,9 +66,13 @@ def hyena_react(direction, sync_key):
     express(head_turn=0, head_nod=0, wait=0.3)
 
 # Maybe sync keys should be line 2 - line 1 = sync etc. If its using ohbot.wait otherwise it will wait too long
+# Experimenting with this 
 scar_line("I know that your powers of retention", "line1", eye=0, head=0, nod=2)
+ohbot.wait(SYNC["line2"] - SYNC["line1"]) # Wait for the difference between lines
 scar_line("Are as wet as a warthog's backside", "line2", eye=10, head=5, nod=1)
+ohbot.wait(SYNC["line3"] - SYNC["line2"]) # Wait for the difference between lines
 scar_line("But thick as you are, pay attention!", "line3", eye=0, head=-5, nod=2)
+ohbot.wait(SYNC["line4"] - SYNC["line3"]) # Wait for the difference between lines
 scar_line("My words are a matter of pride", "line4", eye=-10, head=-10, nod=2)
 
 scar_line("It's clear from your vacant expressions", "line5", eye=0, head=5, nod=1)
